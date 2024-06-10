@@ -1,0 +1,11 @@
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Local .terraform directories
+**/.terraform/*
+*.hcl
+*.lock*
+
+# ignore the private key
+**/key/client_key
